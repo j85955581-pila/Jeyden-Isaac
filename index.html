@@ -4,92 +4,140 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Baby Shower Jeyden Isaac</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
+    *{box-sizing:border-box}
+
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #eef6ff;
-      color: #2c3e50;
-      text-align: center;
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:linear-gradient(180deg,#eaf4ff,#ffffff);
+      color:#2c3e50;
+      text-align:center;
     }
-    header {
-      background: linear-gradient(#cfe8ff, #eef6ff);
-      padding: 40px 20px;
+
+    header{
+      padding:60px 20px 40px;
+      background:linear-gradient(180deg,#cfe8ff,#eaf4ff);
+      position:relative;
+      overflow:hidden;
     }
-    header img {
-      max-width: 300px;
-      border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    header img{
+      max-width:260px;
+      border-radius:30px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.15);
+      animation:flotar 4s ease-in-out infinite;
     }
-    h1 {
-      font-size: 2.5em;
-      margin-top: 20px;
-      color: #3b6ea5;
+
+    @keyframes flotar{
+      0%{transform:translateY(0px)}
+      50%{transform:translateY(-8px)}
+      100%{transform:translateY(0px)}
     }
-    .fecha {
-      font-size: 1.2em;
-      margin-top: 10px;
+
+    h1{
+      font-size:2.7em;
+      margin-top:25px;
+      color:#2f5f99;
+      font-weight:600;
     }
-    section {
-      padding: 30px 20px;
+
+    .fecha{
+      margin-top:8px;
+      font-size:1.1em;
+      color:#5a7fa8;
     }
-    .mensaje {
-      max-width: 700px;
-      margin: auto;
-      font-size: 1.1em;
-      line-height: 1.6;
-      background: white;
-      padding: 25px;
-      border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+    section{
+      padding:40px 20px;
     }
-    .fotos {
-      margin-top: 40px;
+
+    .card{
+      max-width:750px;
+      margin:auto;
+      background:white;
+      padding:35px;
+      border-radius:30px;
+      box-shadow:0 12px 30px rgba(0,0,0,0.08);
+      line-height:1.8;
+      font-size:1.1em;
     }
-    input[type=file] {
-      margin-top: 15px;
+
+    .boton{
+      display:inline-block;
+      margin-top:25px;
+      padding:16px 28px;
+      background:linear-gradient(135deg,#6fa8dc,#3b6ea5);
+      color:white;
+      text-decoration:none;
+      border-radius:16px;
+      font-size:1.15em;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(0,0,0,0.18);
+      transition:all .25s ease;
     }
-    footer {
-      background-color: #cfe8ff;
-      padding: 15px;
-      font-size: 0.9em;
-      margin-top: 40px;
+
+    .boton:hover{
+      transform:translateY(-3px) scale(1.02);
+      box-shadow:0 10px 22px rgba(0,0,0,0.22);
+    }
+
+    footer{
+      margin-top:60px;
+      padding:25px;
+      background:#cfe8ff;
+      color:#2f5f99;
+      font-size:0.95em;
+    }
+
+    .decoracion{
+      position:absolute;
+      width:120px;
+      opacity:0.15;
+      top:20px;
+      right:20px;
+    }
+
+    @media(max-width:600px){
+      h1{font-size:2em}
+      header img{max-width:200px}
     }
   </style>
 </head>
+
 <body>
 
   <header>
-    <img src="https://images.unsplash.com/photo-1546015720-b8b30df5aa27" alt="Peluches azules" />
+    <img src="https://images.unsplash.com/photo-1546015720-b8b30df5aa27?auto=format&fit=crop&w=800&q=80" alt="Peluches azules">
     <h1>Baby Shower de Jeyden Isaac</h1>
     <div class="fecha">22 de febrero del 2026</div>
   </header>
 
   <section>
-    <div class="mensaje">
+    <div class="card">
       <p>
-        Con mucha alegría y amor celebramos la dulce espera de nuestro pequeño
-        <strong>Jeyden Isaac</strong>. Cada latido, cada sueño y cada sonrisa que
-        imaginamos nos llena el corazón de esperanza.
+        Con inmensa alegría celebramos la dulce espera de nuestro amado
+        <strong>Jeyden Isaac</strong>. Cada pequeño sueño y cada sonrisa imaginada
+        llenan nuestros corazones de amor y esperanza.
       </p>
-      <p>
-        Gracias por acompañarnos en este momento tan especial. Su presencia y
-        cariño forman parte de los primeros recuerdos que guardaremos para él,
-        incluso antes de llegar a este mundo.
-      </p>
-    </div>
 
-    <div class="fotos">
-      <h2>📸 Comparte tus fotos del evento</h2>
-      <p>Presiona el botón para subir tus fotos y guardar este día tan especial para Jeyden Isaac 💙</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScW93PuwsQIFQZup8A4FatqaH9l00v56bPRuREhv-xmFMdUcw/viewform?usp=publish-editor" target="_blank" style="display:inline-block;margin-top:15px;padding:14px 24px;background:#3b6ea5;color:white;text-decoration:none;border-radius:12px;font-size:1.1em;box-shadow:0 4px 10px rgba(0,0,0,0.15);">
-        📷 Subir fotos del Baby Shower
+      <p>
+        Gracias por acompañarnos en este momento tan especial. Tu presencia
+        forma parte de los primeros recuerdos que guardaremos para él incluso
+        antes de llegar a este mundo 💙.
+      </p>
+
+      <a class="boton" href="https://photos.app.goo.gl/dNV6PXeqx79ujaiw9" target="_blank">
+        📸 Ver y Subir Fotos del Baby Shower
       </a>
     </div>
   </section>
 
   <footer>
-    Con amor 💙 Baby Shower de Jeyden Isaac
+    Con amor 💙 Familia de Jeyden Isaac
   </footer>
 
 </body>
